@@ -1,0 +1,38 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.item {
+  display: flex;
+  margin: 1em;
+  padding: 2em;
+  background-color: #f7f1ec;
+  -webkit-box-shadow: 5px 5px 5px -6px #000000;
+  box-shadow: 5px 5px 5px -6px #000000;
+  border-radius: 5px;
+}
+
+.description {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image {
+  max-width: 150px;
+  max-height: 150px;
+  margin-right: 1em;
+}
